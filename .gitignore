@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Persistent memory test artifacts
+.memoryx.json
+*.memoryx.json
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Coverage / test caches
+coverage/
+.nyc_output/
+.vitest-cache/
+
+# Env
+.env
+.env.*
+!.env.example
